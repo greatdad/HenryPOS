@@ -20,7 +20,7 @@
             android:textColor="@color/material_on_background_emphasis_high_type"
             android:padding="10dp"
             android:layout_gravity="center"
-            android:textSize="25sp"
+            android:textSize="18sp"
             />
 
     </LinearLayout>
@@ -183,6 +183,15 @@
 
     </LinearLayout>
 
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:context=".MainActivity">
+
 
     <TableLayout
         android:layout_width="match_parent"
@@ -220,6 +229,6 @@
 
 
     </TableLayout>
-
+    </ScrollView>
 
 </LinearLayout>
